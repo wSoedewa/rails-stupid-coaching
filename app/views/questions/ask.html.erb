@@ -1,9 +1,12 @@
-<div class="row">
-  <h1 class="col-12">Stupid Coaching</h1>
-
-  <h5 class="col-12">What do you want to ask?</h5 >
-  <form action="answer" data-turbo="false" class="col-12">
-    <input type="text" name="question" value="<%= params[:answers] %>">
-    <button type="submit" class="btn btn-primary">Ask me!</button>
-  </form>
+<div class="container">
+  <div class="my-container p-2 m-5">
+    <h1 class="pb-2">Stupid Coaching</h1>
+    <h5>What do you want to ask?</h5 >
+    <form action="answer" data-turbo="false">
+      <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="enter here" name="question" value="<%= params[:answers] %>">
+      <button class="btn btn-primary" type="submit">Ask me!</button>
+      </div>
+    </form>
+  </div>
 </div>

@@ -14,6 +14,6 @@
  *= require_self
  */
 
- h1 {
-  margin-bottom: 30px;
+ .coach-answer {
+  background-color: rgba(253, 245, 191, 0.6);
  }
